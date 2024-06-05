@@ -1,0 +1,10 @@
+model: "roberta"
+#model: "bert"
+#model: "gpt2"
+max_length: 500
+strategy: "both"
+#usr_dim: -1
+usr_dim: 768
+#prd_dim: -1
+prd_dim: 768
+masking_ratio: 0.15
